@@ -6,22 +6,30 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Developpement
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Facing some problems with stackblitz I decided to create a new projet doing the same thing as the one on stackblitz. Instead of using the json file in which I couldn't post a new ticket using the httpClient, I decided to use a list in ticketService.
+I choosed Angular 8 because it's the version I used to work with. 
 
-## Build
+### features
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+#### CREATE
+- You can create a new ticket by clicking on the button **CREATE A NEW TICKET**.
 
-## Running unit tests
+#### UPDATE
+- You can update a ticket by clicking on it wich will open a form to update the ticket.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+#### DELETE
+- You can delete a ticket by clicking on the button delete showed on the ticket.
 
-## Running end-to-end tests
+#### Technical notes
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+- Creation of one component for creating and editing a ticket.
+- Using Angular routing.
+- Implement the design using just css.
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Unit testing
+
+I didn't implement any because I don't know how to implement them for front part. I implemented unit tests and integration tests for back part using Java - Spring.
