@@ -1,6 +1,11 @@
 <h1>Code assignment</h1>
 <div class="tickets">
-  <h2>Tickets <button routerLink="/create">CREATE A NEW TICKET</button></h2>
+  <h2>
+    <div class="row">
+      <div class="col-6">Tickets</div>
+      <div class="col-6-reverse"><button routerLink="/create" class="btn-primary">CREATE A NEW TICKET</button></div>
+    </div>
+  </h2>
   <div>
 
     <app-ticket *ngFor="let ticket of tickets$ | async" [ticket]="ticket" routerLink="create/{{ticket.id}}"></app-ticket>
