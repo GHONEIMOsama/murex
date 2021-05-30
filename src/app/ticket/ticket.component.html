@@ -1,7 +1,8 @@
 <p>ticket works!</p>
 <div class="ticket">
     <div class="ticket__header">
-      <h4>{{ ticket?.title }}</h4>
+      <h4>{{ ticket?.title }} <button (click)="delete()" class="btn-danger">DELETE</button></h4>
+      
       <div class="ticket__category" [ngClass]="{
           'ticket__category--primary': ticket?.category === 'BLOG',
           'ticket__category--secondary': ticket?.category === 'LIBRARY',

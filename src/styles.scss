@@ -72,7 +72,16 @@ h4 {
   cursor: pointer;
 }
 
-.btn-primary:hover {
+.btn-danger {
+  background-color: $primary;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  padding: 6px;
+  cursor: pointer;
+}
+
+.btn-primary:hover, .btn-danger:hover {
   background-color: #00c5e3;
 }
 
@@ -106,6 +115,10 @@ h4 {
 
 .form-label {
   margin: 5px 0px 5px 0px;
+}
+
+.clickable {
+  cursor: pointer;
 }
 
 

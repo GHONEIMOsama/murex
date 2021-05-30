@@ -43,10 +43,16 @@ export class CreateTicketComponent implements OnInit {
     });
   }
 
+  /**
+   * A getter for the form controls
+   */
   get fCtrls() {
     return this.form.controls;
   }
 
+  /**
+   * A method to initilize the form with the ticket informations in edit case
+   */
   initForm(): void {
     this.fCtrls.titleField.setValue(this.ticket.title);
     this.fCtrls.descriptionField.setValue(this.ticket.description);
@@ -56,6 +62,9 @@ export class CreateTicketComponent implements OnInit {
     this.fCtrls.iAmField.setValue(this.ticket.internal);
   }
 
+  /**
+   * A method called to create a ticket and post it in the DB using the informations of the form
+   */
   create(): void {
     const ticket: Ticket = {
       id: this.id,
@@ -73,6 +82,10 @@ export class CreateTicketComponent implements OnInit {
     });
   }
 
+  /**
+   * A method to generate a random id
+   * @returns a string representin the random generated id
+   */
   private generateRandomId(): string {
     return Math.floor(Math.random() * 1000000) + '-' + Math.floor(Math.random() * 10000) + '-' + Math.floor(Math.random() * 10000);
   }

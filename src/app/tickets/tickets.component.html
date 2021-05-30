@@ -8,6 +8,6 @@
   </h2>
   <div>
 
-    <app-ticket *ngFor="let ticket of tickets$ | async" [ticket]="ticket" routerLink="create/{{ticket.id}}"></app-ticket>
+    <app-ticket *ngFor="let ticket of tickets$ | async" [ticket]="ticket" routerLink="create/{{ticket.id}}" class="clickable"></app-ticket>
   </div>
 </div>
