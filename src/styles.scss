@@ -1,0 +1,64 @@
+@import './variables.scss';
+
+/* You can add global styles to this file, and also import other style files */
+h1 {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36.8px;
+  margin: 32px 0 0;
+}
+
+body {
+  background-color: #f7f7f7;
+}
+
+h2 {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 34px;
+  color: $tertiary;
+  border-bottom: #ced5d9 1px solid;
+  padding-bottom: 16px;
+  margin: 0 0 32px;
+}
+
+h4 {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 20.7px;
+  margin: 0;
+}
+
+.text {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: $dark;
+}
+
+.small-text {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: $darker;
+}
+
+.tiny-text {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 8px;
+  line-height: 8px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}

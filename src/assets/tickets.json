@@ -1,0 +1,94 @@
+{
+  "tickets": [
+    {
+      "id": "743a3731-ed4c-4d43-9973-806e585d5a39",
+      "user": "Ms. Larry Shields",
+      "title": "voluptas eos sequi",
+      "status": "OK",
+      "category": "BLOG",
+      "description": "Ex voluptas ipsam qui nulla totam quia consequatur. Eius similique in asperiores consequuntur nesciunt perspiciatis tempore aperiam. Fuga tempora rerum distinctio velit et autem laudantium. Hic velit aut vel illo aperiam dolor rem. Error repellendus vel consequatur fuga incidunt et amet in velit. Neque praesentium nesciunt molestias provident corrupti.",
+      "internal": true
+    },
+    {
+      "id": "b1f35923-a55b-42de-9bf5-b948bac92906",
+      "user": "Rosie Ryan",
+      "title": "qui dicta sunt",
+      "status": "OK",
+      "category": "BLOG",
+      "description": "Est eligendi magnam laborum ducimus quo perspiciatis illo. Molestias rerum aliquam minima animi nostrum temporibus veritatis. Natus qui quam aliquam adipisci laborum omnis. Laboriosam sapiente a autem.",
+      "internal": true
+    },
+    {
+      "id": "1a3430da-0aa0-4b04-8a72-563477675b12",
+      "user": "Craig Hahn",
+      "title": "praesentium qui dolorum",
+      "status": "DECLINE",
+      "category": "DOCUMENTATION",
+      "description": "Atque consectetur consectetur. Eius sunt explicabo accusantium ipsam qui non. Enim nihil voluptatem temporibus ea sint. Quo rerum libero ea quas ullam. Commodi enim aliquid porro nobis iure et natus. Repellat aut voluptatem dolorum dicta iure.",
+      "internal": false
+    },
+    {
+      "id": "cac26837-9592-44e4-853a-c446496c4c3b",
+      "user": "Nichole Pouros",
+      "title": "ipsum id molestiae",
+      "status": "FORWARD",
+      "category": "DOCUMENTATION",
+      "description": "Non nobis perferendis. Aut repellat est. Qui mollitia minima iste at iusto iure provident modi excepturi. Laboriosam quia et nostrum similique. Nisi aperiam mollitia ipsum modi non labore omnis veniam eum. Non omnis aspernatur eos beatae voluptatem ipsam.",
+      "internal": false
+    },
+    {
+      "id": "02a3c23e-d495-4b3a-8531-8b5be75713a9",
+      "user": "Arlene Johns PhD",
+      "title": "iste voluptas possimus",
+      "status": "WARNING",
+      "category": "BLOG",
+      "description": "Qui aliquid at unde veniam. Impedit sunt amet eaque eligendi voluptas autem qui mollitia voluptatem. Qui quasi rerum iste corrupti ut voluptas. Qui ut quis inventore magni nisi voluptatum qui.",
+      "internal": false
+    },
+    {
+      "id": "c8f2035d-cdc9-4c44-86ce-d894392f6294",
+      "user": "Candace Konopelski",
+      "title": "corporis culpa quae",
+      "status": "FORWARD",
+      "category": "BLOG",
+      "description": "Porro cum blanditiis consequatur unde minima architecto ea ut. Nemo ut et dolor eum sit ea non et. Repudiandae inventore quam assumenda perspiciatis aut et. Corporis labore ipsum aut explicabo suscipit.",
+      "internal": false
+    },
+    {
+      "id": "a9d4edbd-3342-4314-a6e1-824ce7a3c3b5",
+      "user": "Milton Grimes DVM",
+      "title": "soluta aperiam recusandae",
+      "status": "DECLINE",
+      "category": "LIBRARY",
+      "description": "Doloremque omnis omnis et. Voluptas nihil beatae excepturi corporis dolor optio quam alias consequuntur. Non voluptatem est sunt.",
+      "internal": true
+    },
+    {
+      "id": "c3ee7900-3f98-4c96-aea3-16a73f20cc04",
+      "user": "Sheila Pagac",
+      "title": "voluptas dolores ipsam",
+      "status": "WARNING",
+      "category": "LIBRARY",
+      "description": "Est veritatis incidunt neque dolor eos qui ut. Ducimus quibusdam quaerat nihil qui aut quo sequi distinctio quae. Laborum corrupti doloribus id et qui assumenda dolorum consequatur ut. Voluptas odio itaque blanditiis ut. Rerum tenetur tempore nulla error alias consectetur doloribus corporis et.",
+      "internal": false
+    },
+    {
+      "id": "adb74134-a1f8-427c-8730-e4b699f388db",
+      "user": "Jacquelyn Cormier",
+      "title": "velit ut sed",
+      "status": "DECLINE",
+      "category": "LIBRARY",
+      "description": "Adipisci nihil soluta qui. Aut facilis hic distinctio enim aliquid ex molestias. Veritatis necessitatibus sint magni voluptatem dolores. Laudantium est distinctio aliquam doloremque.",
+      "internal": false
+    },
+    {
+      "id": "8a80eadf-62a3-4547-9dcb-8abb64cc7ee2",
+      "user": "Mercedes Quitzon",
+      "title": "nemo cum adipisci",
+      "status": "WARNING",
+      "category": "DOCUMENTATION",
+      "description": "Odio ut accusantium unde consequatur veritatis eius. A rerum repudiandae. Vero qui et.",
+      "internal": true
+    }
+  ]
+}

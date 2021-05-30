@@ -1,0 +1,31 @@
+<p>ticket works!</p>
+<div class="ticket">
+    <div class="ticket__header">
+      <h4>{{ ticket?.title }}</h4>
+      <div class="ticket__category" [ngClass]="{
+          'ticket__category--primary': ticket?.category === 'BLOG',
+          'ticket__category--secondary': ticket?.category === 'LIBRARY',
+          'ticket__category--tertiary': ticket?.category === 'DOCUMENTATION'
+        }">
+        {{ ticket?.category }}
+      </div>
+    </div>
+    <div class="text">{{ ticket?.description }}</div>
+    <div class="ticket__footer">
+      <div class="ticket__user-infos">
+        <img src="assets/user.svg" alt="user" />
+        <div class="ticket__user-status">
+          <div class="small-text">{{ ticket?.user }}</div>
+          <span
+            class="tiny-text ticket__status"
+            [ngClass]="{ 'ticket__status--internal': ticket?.internal }"
+            >{{ ticket?.internal ? "Internal" : "External" }}</span>
+        </div>
+      </div>
+  
+      <div class="small-text">
+        ID:
+        <span>{{ ticket?.id }}</span>
+      </div>
+    </div>
+  </div>

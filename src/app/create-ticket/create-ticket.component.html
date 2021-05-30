@@ -1,0 +1,29 @@
+<form [formGroup]="form" (ngSubmit)="create()">
+    <span>Ticket ID: {{id}}</span>
+    <button type="submit" [disabled]="form.invalid">CONFIRM</button><br />
+    <label for="title">Title</label><br />
+    <input type="text" formControlName="titleField" name="title" id="title"><br />
+
+    <label for="description">Description</label><br />
+    <textarea  type="text" formControlName="descriptionField" name="description" id="description"></textarea><br />
+
+    <label for="category">Category</label><br />
+    <select formControlName="categoryField" name="category" id="category">
+        <option *ngFor="let category of categories" value="{{category}}" >{{category}}</option>
+    </select><br />
+
+    <label for="status">Status</label><br />
+    <select formControlName="statusField" name="status" id="status">
+        <option *ngFor="let status of statuses" value="{{status}}" selected>{{status}}</option>
+    </select><br />
+
+    <label for="myName">My name</label><br />
+    <input type="text" formControlName="myNameField" name="myName" id="myName"><br />
+
+    <span>I am</span><br />
+    <input type="radio" name="iAmField" formControlName="iAmField" [value]="false" id="external">
+    <label for="external">External</label><br />
+    <input type="radio" name="iAmField" formControlName="iAmField" [value]="true" id="internal">
+    <label for="internal">Ixternal</label><br />
+    
+</form>
